@@ -44,3 +44,7 @@ fun main() {
     customerManager.clearCustomerList()
     customerManager.listAllCustomer() // Boş liste döner.
 }
+
+sealed class X protected constructor()
+enum class Y private constructor()
+
